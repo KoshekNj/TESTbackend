@@ -1,0 +1,11 @@
+GET http://localhost:5000/admins
+
+###
+
+POST http://localhost:5000/admins/login
+Content-Type: application/json
+
+{
+   "email": "david@gmail.com",
+   "password": "jheffej"
+}
