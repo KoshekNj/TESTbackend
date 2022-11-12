@@ -2,7 +2,7 @@ GET http://localhost:5000/admins
 
 ###
 
-POST http://localhost:5000/admins/login
+POST http://localhost:5000/auths/login
 Content-Type: application/json
 
 {
